@@ -31,7 +31,7 @@ namespace CRM.UI
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.OK = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
@@ -58,18 +58,19 @@ namespace CRM.UI
             this.label1.TabIndex = 1;
             this.label1.Text = "Enter Name";
             // 
-            // button1
+            // OK
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.OK.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.button1.Location = new System.Drawing.Point(159, 161);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.OK.AutoEllipsis = true;
+            this.OK.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.OK.Location = new System.Drawing.Point(159, 161);
+            this.OK.Name = "OK";
+            this.OK.Size = new System.Drawing.Size(75, 23);
+            this.OK.TabIndex = 2;
+            this.OK.Text = "OK";
+            this.OK.UseVisualStyleBackColor = true;
+            this.OK.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -98,6 +99,11 @@ namespace CRM.UI
             // numericUpDown2
             // 
             this.numericUpDown2.Location = new System.Drawing.Point(81, 67);
+            this.numericUpDown2.Maximum = new decimal(new int[] {
+            100000000,
+            0,
+            0,
+            0});
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(153, 20);
             this.numericUpDown2.TabIndex = 5;
@@ -120,7 +126,7 @@ namespace CRM.UI
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.OK);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Name = "ProductForm";
@@ -136,7 +142,7 @@ namespace CRM.UI
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button OK;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.NumericUpDown numericUpDown2;

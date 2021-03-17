@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CRM.BL.Controller;
 
 namespace CRM.BL.Model
 {
@@ -20,6 +21,21 @@ namespace CRM.BL.Model
         public override string ToString()
         {
             return Name;
+        }
+
+       public override int GetHashCode()
+       {
+            return ProductId;
+       }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is Product product) 
+            { 
+              return ProductId.Equals(obj);
+            }
+
+            return false;
         }
     }
 }
