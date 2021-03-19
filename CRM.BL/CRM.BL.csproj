@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\Cart.cs" />
+    <Compile Include="Controller\CashDesk.cs" />
     <Compile Include="Migrations\202103141927255_dbCRM.cs" />
     <Compile Include="Migrations\202103141927255_dbCRM.designer.cs">
       <DependentUpon>202103141927255_dbCRM.cs</DependentUpon>

@@ -46,7 +46,7 @@ namespace CRM.BL.Controller
         public List<Product> GetAll()
         {
             var result = new List<Product>();
-            foreach (Product pr in this)
+            foreach (Product pr in Products.Keys)
             {
                 result.Add(pr);
             }

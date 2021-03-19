@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CRM.BLTests")]
+[assembly: AssemblyTitle("CRM.BLTests1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CRM.BLTests")]
+[assembly: AssemblyProduct("CRM.BLTests1")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6e1896cb-62e0-45bc-bc8f-c92b4c39b432")]
+[assembly: Guid("8e1564e6-0fda-4d08-828b-8d8f1d31f032")]
 
 // Version information for an assembly consists of the following four values:
 //

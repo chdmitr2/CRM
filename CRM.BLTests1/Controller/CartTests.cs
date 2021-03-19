@@ -1,7 +1,6 @@
-﻿using CRM.BL.Model;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
-
+using CRM.BL.Model;
 
 namespace CRM.BL.Controller.Tests
 {
@@ -51,7 +50,6 @@ namespace CRM.BL.Controller.Tests
             {
                 Assert.AreEqual(expectedResult[i], cartResult[i]);
             }
-        }
-
+        }      
     }
 }
