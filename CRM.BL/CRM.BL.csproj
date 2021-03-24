@@ -53,9 +53,15 @@
   <ItemGroup>
     <Compile Include="Controller\Cart.cs" />
     <Compile Include="Controller\CashDesk.cs" />
+    <Compile Include="Controller\ComputerModeling.cs" />
+    <Compile Include="Controller\Generator.cs" />
     <Compile Include="Migrations\202103141927255_dbCRM.cs" />
     <Compile Include="Migrations\202103141927255_dbCRM.designer.cs">
       <DependentUpon>202103141927255_dbCRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103241910347_CRMdb.cs" />
+    <Compile Include="Migrations\202103241910347_CRMdb.designer.cs">
+      <DependentUpon>202103241910347_CRMdb.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Check.cs" />
@@ -73,6 +79,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202103141927255_dbCRM.resx">
       <DependentUpon>202103141927255_dbCRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103241910347_CRMdb.resx">
+      <DependentUpon>202103241910347_CRMdb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

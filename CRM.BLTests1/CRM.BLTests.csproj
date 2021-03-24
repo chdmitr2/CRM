@@ -57,6 +57,8 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Controller\CartTests.cs" />
+    <Compile Include="Controller\CashDeskTests.cs" />
+    <Compile Include="Controller\ComputerModelingTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

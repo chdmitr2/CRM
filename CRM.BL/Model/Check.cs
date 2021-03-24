@@ -17,6 +17,7 @@ namespace CRM.BL.Model
         public virtual Seller Seller { get; set; }
 
         public virtual Customer Customer { get; set; }
+        public decimal Price { get; set; }
 
         public DateTime Created { get; set; }
 

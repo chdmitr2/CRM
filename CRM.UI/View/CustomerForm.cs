@@ -15,14 +15,14 @@ namespace CRM.UI
 
         public CustomerForm(Customer customer) : this()
         {
-            Customer = customer;
+            Customer = customer ?? new Customer();
             textBox1.Text = Customer.Name;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var s = Customer ?? new Customer();
-            Name = textBox1.Text;
+            Customer = Customer ?? new Customer();
+            Customer.Name = textBox1.Text;
             Close();
         }
     }

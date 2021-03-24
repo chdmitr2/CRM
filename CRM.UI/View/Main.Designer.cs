@@ -39,13 +39,15 @@ namespace CRM.UI
             this.addToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.orderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.modelingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.usersToolStripMenuItem});
+            this.usersToolStripMenuItem,
+            this.modelingToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
@@ -76,7 +78,7 @@ namespace CRM.UI
             // addToolStripMenuItem
             // 
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
             this.addToolStripMenuItem.Text = "Add ";
             this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
@@ -127,6 +129,13 @@ namespace CRM.UI
             this.addToolStripMenuItem3.Size = new System.Drawing.Size(96, 22);
             this.addToolStripMenuItem3.Text = "Add";
             // 
+            // modelingToolStripMenuItem
+            // 
+            this.modelingToolStripMenuItem.Name = "modelingToolStripMenuItem";
+            this.modelingToolStripMenuItem.Size = new System.Drawing.Size(70, 22);
+            this.modelingToolStripMenuItem.Text = "Modeling";
+            this.modelingToolStripMenuItem.Click += new System.EventHandler(this.modelingToolStripMenuItem_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -156,6 +165,7 @@ namespace CRM.UI
         private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem modelingToolStripMenuItem;
     }
 }
 

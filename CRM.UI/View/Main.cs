@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using CRM.BL.Model; 
-
+using CRM.BL.Model;
+using CRM.UI.View;
 
 namespace CRM.UI
 {
@@ -65,6 +65,12 @@ namespace CRM.UI
                 db.Products.Add(form.Product);
                 db.SaveChanges();
             }
+        }
+
+        private void modelingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new ModelingForm();
+            form.Show();
         }
     }
 }
