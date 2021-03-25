@@ -114,7 +114,7 @@ namespace CRM.BL.Controller
         }
         public override string ToString()
         {
-            return $"CashDesk №{Number}";
+            return $"Box №{Number}";
         }
     }
 }
